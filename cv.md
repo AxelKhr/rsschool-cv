@@ -1,25 +1,39 @@
 # Aliaksandr Khramau
 
 ## Contact Info
-* Email: axelkhr@gmail.com
+* Email: axel.khr@gmail.com
 * Phone: +48733329077
+* Telegram: @axel_by
 * GitHub: AxelKhr
+* Discord (rs-school): Aliaksandr Khramau (@AxelKhr)
 
 ## Summary
-Fifteen years of experience in the development of control and measuring electronic devices and automated measuring systems, mathematical models in the industrial sector, also experience in creating software for working with devices and systems.
+I have fifteen years of experience in the development of electronic instrumentation and automated measuring systems. I have extensive experience in CAD systems for modeling and creating devices. Created programs for microcontrollers, PLCs and simple applications for windows. I taught at the university in various courses in the specialty «Industrial electronics». In the process of work, I constantly improved the level of knowledge in device design and programming skills.
+After moving abroad, I decided to change the direction of work and began to study front-end development.
 
 ## Skills
-* Electronic circuit design
-* Printed circuit board (PCB) design
-* Creating software for MCU
-* Assembly of prototypes
-* Knowledge of design and simulation tools
-* Knowledge of test and measurement instruments
-* Project management
+* Electronic circuit and printed circuit board (PCB) design
+* Creating applications for MCU (C-language)
+* Knowledge of CADs for the design and simulation of electronic devices
+* HTML, CSS
+* JavaScript (basic)
+
+## Code example
+```
+function rgb(r, g, b){
+  let out = '';
+  for (let arg of arguments) {
+    if (arg < 0) arg = 0;
+    else if (arg > 255) arg = 255;
+    out += arg.toString(16).toUpperCase().padStart(2, '0')
+  };
+  return out;
+}
+```
 
 ## Education
-**Master of Engineering Science / Industrial electronics** - 
-Sukhoi State Technical University of Gomel, Belarus
+* **Master of Engineering Science / Industrial electronics** - Sukhoi State Technical University of Gomel, Belarus
+* Course «JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)»
 
 ## Experience
 * Electronics engineer / Company «Intersoftproject» / Gomel, Belarus
